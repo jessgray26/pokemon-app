@@ -1,0 +1,57 @@
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+button{
+  background-color: #008CBA;
+  color:#fff;
+  padding:10px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin-left:10px;
+}
+
+.randomize{
+  background-color: #ffd000;
+  color: rgb(63, 63, 63);
+}
+
+.view-btn{
+  background-color: #126d8b;
+  color: rgb(255, 255, 255);
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid rgb(223, 190, 81);
+  background-color:#282c34 ;
+  color:#fff;
+}
+
+.row{
+  display: flex;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.list{
+  height: 500px;
+  overflow: auto;
+  width:25%;
+  margin:auto;
+}
+
+hr{
+  width:25%;
+  border-color: #383e49;
+}
